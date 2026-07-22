@@ -1,0 +1,15 @@
+name: Update
+on:
+  schedule: [{cron: '30 13 * * 1-5'}]
+  workflow_dispatch: {}
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions: {contents: write}
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install requests yfinance
+      - run: python ia_master.py && python actualizar_master.py
+      - run: |
+          git config user.name "Bot"; git config user.email "bot@sa.tafe"
+          git add .; git commit -m "update" && git push || echo "no changes"
