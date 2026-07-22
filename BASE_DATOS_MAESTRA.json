@@ -1,0 +1,185 @@
+{
+    "DANHOS13": {
+        "precio": 27.95,
+        "dividendos_recientes": {
+            "2025-08-12": 0.45,
+            "2025-11-12": 0.45,
+            "2026-03-12": 0.45,
+            "2026-05-12": 0.45
+        },
+        "yield_anual": 6.44,
+        "ultima_actualizacion": "2026-07-22 10:38",
+        "fundamental": {
+            "LTV": null,
+            "Ocupacion": "10.8%",
+            "Metros_Cuadrados": null,
+            "Propiedades": null,
+            "fuente": "2026-Reporte-T1-Fibra-Danhos.pdf",
+            "periodo": "1T2026"
+        }
+    },
+    "FMTY14": {
+        "precio": 14.78,
+        "dividendos_recientes": {
+            "2026-01-29": 0.08163,
+            "2026-02-26": 0.081398,
+            "2026-03-05": 0.2098,
+            "2026-06-17": 0.127402
+        },
+        "yield_anual": 3.38,
+        "ultima_actualizacion": "2026-07-22 10:38",
+        "fundamental": {
+            "LTV": null,
+            "Ocupacion": null,
+            "Metros_Cuadrados": null,
+            "Propiedades": "120",
+            "fuente": "2026-Reporte-T1-Fibra-Mty.pdf",
+            "periodo": "1T2026"
+        }
+    },
+    "FUNO11": {
+        "precio": 30.45,
+        "dividendos_recientes": {
+            "2025-08-08": 0.57,
+            "2025-11-07": 0.605,
+            "2026-02-06": 0.67,
+            "2026-05-08": 0.62
+        },
+        "yield_anual": 8.1,
+        "ultima_actualizacion": "2026-07-22 10:38",
+        "fundamental": {
+            "LTV": null,
+            "Ocupacion": null,
+            "Metros_Cuadrados": null,
+            "Propiedades": "8",
+            "fuente": "2026-Reporte-T1-FUNO.pdf",
+            "periodo": "1T2026"
+        }
+    },
+    "FNOVA17": {
+        "precio": 28.15,
+        "dividendos_recientes": {
+            "2025-04-28": 0.554076,
+            "2025-11-05": 0.607154,
+            "2026-02-24": 0.61336,
+            "2026-04-28": 0.621634
+        },
+        "yield_anual": 8.51,
+        "ultima_actualizacion": "2026-07-22 10:38",
+        "fundamental": {
+            "LTV": null,
+            "Ocupacion": "100%",
+            "Metros_Cuadrados": null,
+            "Propiedades": "12",
+            "fuente": "2026-Reporte-T1-Fibra-Nova.pdf",
+            "periodo": "1T2026"
+        }
+    },
+    "FIBRAPL14": {
+        "precio": 78.06,
+        "dividendos_recientes": {
+            "2025-08-11": 0.695794,
+            "2025-12-10": 0.6914,
+            "2026-02-13": 0.646199,
+            "2026-02-24": 0.7566
+        },
+        "yield_anual": 3.57,
+        "ultima_actualizacion": "2026-07-22 10:38",
+        "fundamental": {
+            "LTV": null,
+            "Ocupacion": "97.0%",
+            "Metros_Cuadrados": null,
+            "Propiedades": "516",
+            "fuente": "2026-Reporte-T1-Fibra-Prologis.pdf",
+            "periodo": "1T2026"
+        }
+    },
+    "FIBRAMQ12": {
+        "precio": 45.01,
+        "dividendos_recientes": {
+            "2025-09-25": 0.6125,
+            "2026-01-29": 0.6125,
+            "2026-03-11": 0.6125,
+            "2026-06-17": 0.6125
+        },
+        "yield_anual": 5.44,
+        "ultima_actualizacion": "2026-07-22 10:38",
+        "fundamental": {
+            "LTV": null,
+            "Ocupacion": null,
+            "Metros_Cuadrados": null,
+            "Propiedades": "9",
+            "fuente": "2026-Reporte-T1-Fibra-Macquarie.pdf",
+            "periodo": "1T2026"
+        }
+    },
+    "FIHO12": {
+        "precio": 7.4,
+        "dividendos_recientes": {
+            "2025-08-01": 0.15,
+            "2025-10-31": 0.15,
+            "2026-03-06": 0.15,
+            "2026-05-04": 0.1555
+        },
+        "yield_anual": 8.18,
+        "ultima_actualizacion": "2026-07-22 10:38",
+        "fundamental": "Sin reporte 1T2026 cargado"
+    },
+    "FINN13": {
+        "precio": 4.82,
+        "dividendos_recientes": {
+            "2025-08-13": 0.090058,
+            "2025-11-25": 0.090334,
+            "2026-03-24": 0.090009,
+            "2026-05-18": 0.09
+        },
+        "yield_anual": 7.48,
+        "ultima_actualizacion": "2026-07-22 10:38",
+        "fundamental": "Sin reporte 1T2026 cargado"
+    },
+    "FHIPO14": {
+        "precio": 14.14,
+        "dividendos_recientes": {
+            "2025-08-20": 0.355706,
+            "2025-11-19": 0.356234,
+            "2026-03-11": 0.356234,
+            "2026-05-20": 0.356234
+        },
+        "yield_anual": 10.07,
+        "ultima_actualizacion": "2026-07-22 10:38",
+        "fundamental": "Sin reporte 1T2026 cargado"
+    },
+    "FPLUS16": {
+        "precio": 5.04,
+        "dividendos_recientes": {
+            "2023-04-19": 0.086259
+        },
+        "yield_anual": 1.71,
+        "ultima_actualizacion": "2026-07-22 10:38",
+        "fundamental": "Sin reporte 1T2026 cargado"
+    },
+    "EDUCA18": {
+        "precio": 54.5,
+        "dividendos_recientes": {
+            "2025-08-22": 0.635337,
+            "2025-11-21": 0.640943,
+            "2026-03-12": 0.648016,
+            "2026-05-25": 0.64956
+        },
+        "yield_anual": 4.72,
+        "ultima_actualizacion": "2026-07-22 10:38",
+        "fundamental": "Sin reporte 1T2026 cargado"
+    },
+    "FCFE18": {
+        "precio": 24.59,
+        "dividendos_recientes": {
+            "2025-12-30": 0.416324,
+            "2026-03-12": 0.012049,
+            "2026-03-30": 0.534545,
+            "2026-06-29": 0.618828
+        },
+        "yield_anual": 6.43,
+        "ultima_actualizacion": "2026-07-22 10:38",
+        "fundamental": "Sin reporte 1T2026 cargado"
+    }
+}
