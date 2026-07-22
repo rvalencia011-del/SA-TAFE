@@ -1,21 +1,23 @@
-# SA-TAFE AI SKILL DEFINITION
+# SA-TAFE AI SKILL DEFINITION (v2.0)
 
 ## Propósito
-Esta habilidad permite analizar FIBRAs (REITs Mexicanos) usando el algoritmo SA-TAFE, optimizando por **Ingresos y Estabilidad** en lugar de solo precio.
+Optimizador de portafolios de FIBRAs Mexicanas basado en Simulated Annealing (SA). El objetivo es maximizar el **flujo de dividendos sostenible**, no la especulación de precios.
 
-## Archivos de Datos (Fuentes de Verdad)
-- **IA_FINAL.json**: Resultados del último análisis de inteligencia (Score, Acción, Yield).
-- **DATASET_ANALISIS_PROFUNDO.json**: Métricas fundamentales (LVT, NAV, Ocupación).
-- **plantilla_financiera_ratios.csv**: Datos base para cálculos.
+## Fuentes de Verdad (Confianza Absoluta)
+1. **IA_FINAL.json**: Resultados del motor de decisión (Score, Acción, Yield).
+2. **DATASET_ANALISIS_PROFUNDO.json**: Métricas fundamentales (LVT, NAV, Ocupación).
+3. **plantilla_financiera_ratios.csv**: Datos base originales.
 
-## Cómo usar esta habilidad (Instrucciones para la IA)
-1. **Consulta de Ratios**: Para dar una recomendación, lee primero `IA_FINAL.json`.
-2. **Lógica de Decisión**:
-   - Score > 80: Compra Fuerte.
-   - Score < 40: Venta/Riesgo.
-   - Priorizar FIBRAs con LVT < 35% y Payout < 90%.
-3. **Optimización**: Usa `run_sa_refactored.py` para recalcular pesos del portafolio según el perfil (Conservador, Balanceado, Crecimiento).
+## Reglas de Comportamiento de IA (NO NEGOCIABLES)
+- **Integridad de Datos**: Si un valor (Yield, LTV, Payout) aparece como `null`, `#N/A` o no existe en los JSON/CSV, la IA **TIENE PROHIBIDO** inventar, estimar o promediar dicho valor. Debe reportar "Dato No Disponible".
+- **Diferenciación de Decisiones**:
+    - **"MANTENER"**: Solo se recomienda cuando los datos existen y el análisis de salud financiera es neutral.
+    - **"SIN DATOS"**: Si falta información crítica (LTV o Yield), la IA no debe recomendar ninguna acción y debe marcar la FIBRA como "Fuera de Cobertura por Falta de Datos".
+- **Penalizaciones de Seguridad**: Priorizar siempre FIBRAs con LTV < 45%. Cualquier LTV superior debe ser reportado como "Riesgo de Deuda".
 
-## Endpoints de Datos en Tiempo Real (RAW)
+## Lógica del Algoritmo SA-TAFE
+La optimización se basa en: `Score = (w1*Yield) + (w2*Estabilidad) - (w4*Riesgo_Financiero)`.
+
+## Endpoints RAW
 - https://raw.githubusercontent.com/rvalencia011-del/SA-TAFE/main/IA_FINAL.json
 - https://raw.githubusercontent.com/rvalencia011-del/SA-TAFE/main/DATASET_ANALISIS_PROFUNDO.json
