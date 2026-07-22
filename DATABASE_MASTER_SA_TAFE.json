@@ -1,0 +1,107 @@
+{
+  "DANHOS13": {
+    "precio": 27.95,
+    "yield": null,
+    "score": null,
+    "accion": "MANTENER",
+    "t": "2026-07-22T12:34:03.856893"
+  },
+  "FMTY14": {
+    "precio": 14.78,
+    "yield": null,
+    "score": null,
+    "accion": "MANTENER",
+    "t": "2026-07-22T12:34:03.856911"
+  },
+  "FUNO11": {
+    "precio": 30.45,
+    "yield": null,
+    "score": null,
+    "accion": "MANTENER",
+    "t": "2026-07-22T12:34:03.856918"
+  },
+  "FNOVA17": {
+    "precio": 28.15,
+    "yield": null,
+    "score": null,
+    "accion": "MANTENER",
+    "t": "2026-07-22T12:34:03.856923"
+  },
+  "FIBRAPL14": {
+    "precio": 78.06,
+    "yield": null,
+    "score": null,
+    "accion": "MANTENER",
+    "t": "2026-07-22T12:34:03.856927"
+  },
+  "FIBRAMQ12": {
+    "precio": 45.01,
+    "yield": null,
+    "score": null,
+    "accion": "MANTENER",
+    "t": "2026-07-22T12:34:03.856931"
+  },
+  "FIHO12": {
+    "precio": 7.4,
+    "yield": null,
+    "score": null,
+    "accion": "MANTENER",
+    "t": "2026-07-22T12:34:03.856936"
+  },
+  "FINN13": {
+    "precio": 4.82,
+    "yield": null,
+    "score": null,
+    "accion": "MANTENER",
+    "t": "2026-07-22T12:34:03.856953"
+  },
+  "FHIPO14": {
+    "precio": 14.14,
+    "yield": null,
+    "score": null,
+    "accion": "MANTENER",
+    "t": "2026-07-22T12:34:03.856956"
+  },
+  "FPLUS16": {
+    "precio": 5.04,
+    "yield": null,
+    "score": null,
+    "accion": "MANTENER",
+    "t": "2026-07-22T12:34:03.856960"
+  },
+  "SOMA18": {
+    "precio": NaN,
+    "yield": null,
+    "score": null,
+    "accion": "MANTENER",
+    "t": "2026-07-22T12:34:03.856964"
+  },
+  "EDUCA18": {
+    "precio": 54.5,
+    "yield": null,
+    "score": null,
+    "accion": "MANTENER",
+    "t": "2026-07-22T12:34:03.856968"
+  },
+  "FCFE18": {
+    "precio": 24.59,
+    "yield": null,
+    "score": null,
+    "accion": "MANTENER",
+    "t": "2026-07-22T12:34:03.856972"
+  },
+  "SHOP13": {
+    "precio": NaN,
+    "yield": null,
+    "score": null,
+    "accion": "MANTENER",
+    "t": "2026-07-22T12:34:03.856975"
+  },
+  "TERRA13": {
+    "precio": NaN,
+    "yield": null,
+    "score": null,
+    "accion": "MANTENER",
+    "t": "2026-07-22T12:34:03.856978"
+  }
+}
